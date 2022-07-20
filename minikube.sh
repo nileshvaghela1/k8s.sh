@@ -1,7 +1,7 @@
 # k8s.sh
 apt update
-apt install docker docker.io
-apt install conntrack
+apt install docker docker.io -y
+apt install conntrack -y
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube /usr/local/bin/minikube
 ls -l /usr/local/bin/
